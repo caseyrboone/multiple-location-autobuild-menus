@@ -1,0 +1,32 @@
+
+<?php 
+// This file connects to qamBU.php and is not currently being used in the plugin. This is just another way to approch the problem of creating custom fields.
+
+?><div class="qcf_box">
+    <style scoped>
+        .qcf_box{
+            display: grid;
+            grid-template-columns: max-content 1fr;
+            grid-row-gap: 10px;
+            grid-column-gap: 20px;
+        }
+        .qcf_field{
+            display: contents;
+        }
+    </style>
+    <p class="meta-options qcf_field">
+        <label for="qcf_descript">Author</label>
+        <input id="qcf_descript"
+            type="text"
+            name="qcf_descript"
+            value="<?php echo esc_attr( get_post_meta( get_the_ID(), 'qcf_descript', true ) ); ?>">
+    </p>
+    <p class="meta-options qcf_field">
+        <label for="qcf_check">Check this box if you would like to exclude this page from the main nav menu.</label>
+        <input id="qcf_check"
+            type="checkbox"
+            name="qcf_check"
+            value="<?php echo esc_attr( get_post_meta( get_the_ID(), 'qcf_check', true ) ); ?>">
+    </p>
+
+</div><?php ?>

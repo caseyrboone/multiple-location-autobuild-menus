@@ -1,0 +1,61 @@
+/* .nav {
+  display:inline;
+}
+.navbar-nav {
+  display: flex !important;
+} */
+/* .nav-link {
+  padding: 6px 6px 11px 6px !important;
+} */
+.sub-menu{
+  margin-top:10px;
+}
+.navbar .dropdown:hover > .dropdown-menu {
+	display: block;
+	margin-top: 0px;
+}
+nav.qam li img {
+	max-width: 200px;
+}
+/* mega menu starts here */
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 0px;
+    width: 100%;
+    margin-top: -10px !important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+/* mega menu ends here */
+@media only screen and (max-width: 767px) {
+  
+}
+@media only screen and (min-width: 768px) {
+  .qam_mob_menu_icon {
+    display: none;
+  }
+}
