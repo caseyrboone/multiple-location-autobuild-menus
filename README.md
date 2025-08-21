@@ -1,4 +1,4 @@
-# Multi-Location Auto Menus (De-branded, Repo-Ready)
+# Multi-Location Auto Menus
 
 This repository is a **complete** cleaned version of your original archive, with every file copied over and all references to the previous brand removed from paths and text files.
 
